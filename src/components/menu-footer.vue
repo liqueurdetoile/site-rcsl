@@ -26,6 +26,11 @@ defineProps({
               <div class="text">Page de l'école de rugby</div>
             </a>
 
+            <a class="item" href="https://rugby-club-st-lo.s2.yapla.com/fr/" target="_blank">
+              <FontAwesomeIcon icon="fa-solid fa-id-badge" class="icon text-5xl text-orange-900" />
+              <div class="text">Paiement licence en ligne</div>
+            </a>
+
             <a class="item" href="https://bocage.saintlo-rugby.fr" target="_blank">
               <FontAwesomeIcon icon="fa-solid fa-trophy" class="icon text-5xl text-green-900" />
               <div class="text">Tournoi du bocage</div>
