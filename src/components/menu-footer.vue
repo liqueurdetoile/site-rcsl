@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router';
-
 defineProps({
     skip: {
         type: Array,
@@ -11,12 +9,7 @@ defineProps({
 
 <template>
     <div class="pt-8 my-8 grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-6">
-            <RouterLink v-if="!skip.includes(0)" to="/retransmissions-coupe-du-monde-rugby-2023" class="item">
-              <FontAwesomeIcon icon="fa-solid fa-tv" class="icon text-5xl text-teal-700" />
-              <div class="text text-lg">Réservez vos places pour nos retransmissions des matches de la coupe du monde</div>
-            </RouterLink>
-
-           <a class="item" href="https://www.facebook.com/RugbyClubSaintLoAgglo" target="_blank">
+            <a class="item" href="https://www.facebook.com/RugbyClubSaintLoAgglo" target="_blank">
               <FontAwesomeIcon icon="fa-brands fa-facebook" class="icon text-5xl text-blue-500" alt="Facebook" />
               <div class="text">Page du club RCSLA</div>
             </a>
@@ -36,9 +29,9 @@ defineProps({
               <div class="text">Tournoi du bocage</div>
             </a>
 
-            <a class="item" href="/files/pp_edr_2021_2022.pdf" target="_blank">
+            <a class="item" href="/files/pp_edr_rcsl_2023_2024.pdf" target="_blank">
               <FontAwesomeIcon icon="fa-solid fa-file-pdf" class="icon text-5xl text-red-500" />
-              <div class="text">Projet pédagogique EDR 2021-2022</div>
+              <div class="text">Projet pédagogique EDR 2023-2024</div>
             </a>
           </div>
 </template>
